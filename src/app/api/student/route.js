@@ -122,7 +122,7 @@ export const DELETE = async (request) => {
     return NextResponse.json(
       {
         ok: false,
-        message: "Student Id does not exist",
+        message: "Student ID does not exist",
       },
       {
         status: 404,
